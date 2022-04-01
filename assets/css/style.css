@@ -1,0 +1,590 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Hero Section */
+.heroSection {
+    background-image: url('../img/hero-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.mainHeading {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3em;
+    letter-spacing: 5px;
+    line-height: 1.1;
+}
+
+.heroSection .mainText {
+    letter-spacing: 3px;
+    font-size: 0.9em;
+    margin-top: 1.2em;
+    font-weight: 300;
+}
+
+.oddText {
+    font-size: 1.3em;
+}
+
+/* Navbar */
+.midNavbar {
+    position: relative;
+    padding: 0 2em;
+}
+
+.midNavbar .navbar-brand img {
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.midNavbar .navbar .nav-item .nav-link {
+    color: black;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    width: 8.5em;
+    padding: 0.6em 1.2em;
+    text-align: center;
+}
+
+/* Benefits Section */
+.benefitsSection {
+    padding: 7em 0;
+    text-align: center;
+    background: linear-gradient(#f2f2f2, #ffffff);
+}
+
+.benefitsSection .mainHeading {
+    letter-spacing: 13px;
+    margin-bottom: 0.9em;
+    font-weight: 500;
+}
+
+.mainText {
+    letter-spacing: 3px;
+    line-height: 1.4;
+}
+
+.socialLink img {
+    height: 100px;
+    margin: 1.1em auto;
+}
+
+.socialLink div {
+    position: relative;
+    padding: 1em 0;
+}
+
+.socialLink div::after {
+    content: '';
+    background-color: black;
+    height: 2px;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.socialLink {
+    display: inline-block;
+    text-decoration: none !important;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    text-align: center;
+    color: black !important;
+}
+
+/* Details Section */
+.detailsSection {
+    padding: 3.5em 0;
+    background-image: url('../img/background2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    scroll-margin-top: 2rem;
+}
+
+.detailsSection .mainHeading {
+    line-height: 1;
+    color: #b99968;
+}
+
+.subHeading {
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    color: #e4d6b9;
+    margin: 0.6em 0;
+    font-weight: 300;
+}
+
+.detailsSection .mainText {
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 0.8em;
+}
+
+.oddHeading {
+    color: #e4d6b9;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-bottom: 0.5em;
+}
+
+/* Files Section */
+.filesSection {
+    padding: 2em 0 1.5em 0;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    position: relative;
+    scroll-margin-top: 2rem;
+}
+
+.filesSection .mainHeading {
+    font-weight: 500;
+    letter-spacing: 9px;
+    padding-bottom: 27px;
+}
+
+.filesSection .mainHeading::first-letter {
+    font-size: 1.3em;
+}
+
+.mainLink {
+    color: #6d6d6c;
+    font-size: 1.2em;
+    text-decoration: underline;
+    letter-spacing: 9px;
+}
+
+/* Map Section */
+.mapSection {
+    padding: 2em 0;
+    text-align: center;
+    background-color: #f2f2f2;
+    scroll-margin-top: 2rem;
+}
+
+.mapSection .mainHeading {
+    font-size: 4.4em;
+    letter-spacing: 25px;
+    margin-bottom: 0.7em;
+}
+
+/* Questions Section */
+.questionsSection {
+    padding: 3em 0;
+    scroll-margin-top: 2rem;
+}
+
+.questionsSection .mainHeading {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.questionsSection .socialLink {
+    font-size: 1.1em;
+    letter-spacing: 3px;
+}
+
+.questionsSection .socialLink img {
+    height: 80px;
+    margin-top: 0.7em;
+}
+
+.socialLink {
+    border: 2px solid transparent;
+    width: 155px;
+    height: 158px;
+}
+
+.socialLink.active {
+    border-color: #e2e2e2;
+}
+
+.socialLink[sec='.tab-general'] {
+    margin-right: 5em;
+}
+
+.tab-parent.tab-support {
+    display: none;
+}
+
+.questionsSection .socialLink div {
+    padding-top: 0.6em;
+}
+
+.questionsSection button.accordion {
+    background-color: white;
+    color: #707070;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.2em;
+    border-bottom: 2px solid #707070;
+    border-top: 2px solid #707070;
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.questionsSection .accordion.accordion2 {
+    border: none;
+}
+
+.questionsSection .accordion.active {
+    border: none;
+}
+
+.questionsSection .custom-collapse .accordionText {
+    font-size: 1.1em;
+}
+
+.questionsSection .custom-collapse .accordionsubText {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.questionsSection>.container .custom-collapse:last-child button.accordion {
+    border-bottom: none;
+}
+
+.questionsSection>.container .custom-collapse:last-child .panel p {
+    padding-top: 0;
+}
+
+.questionsSection div.panel {
+    padding: 0 1em;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.questionsSection button.accordion:after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f078';
+    color: #707070;
+    font-size: 1.3em;
+    float: right;
+    margin-left: 5px;
+}
+
+.questionsSection .accordion {
+    color: black;
+}
+
+.questionsSection .accordion.active {
+    color: black;
+    font-weight: 600;
+    border-bottom: none;
+    padding-bottom: 6px;
+}
+
+.questionsSection button.accordion.active:after {
+    content: '';
+}
+
+/* Terms Section */
+.filesSection.termsSection {
+    background-color: #6d6d6c;
+    color: white;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.4);
+    scroll-margin-top: 4rem;
+}
+
+.filesSection.termsSection .mainHeading::first-letter {
+    font-size: unset;
+}
+
+.filesSection.termsSection .mainHeading {
+    font-size: 1.8em;
+    letter-spacing: 12px;
+}
+
+.filesSection.termsSection .mainLink {
+    color: #e4d6b9;
+}
+
+/* App Section */
+.appSection {
+    padding: 2em 0;
+    text-align: center;
+    scroll-margin-top: 2rem;
+}
+
+.appSection .subHeading {
+    color: black;
+}
+
+.appSection .googleLink img {
+    height: 78px;
+}
+
+.appSection .googleLink {
+    display: inline-block;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+}
+
+.appSection .googleLink:hover {
+    transform: scale(0.98);
+}
+
+.appSection .mainText {
+    color: #6d6d6c;
+    margin-top: 0.3em;
+    font-weight: 300;
+}
+
+.mainText.link2 {
+    text-decoration: underline;
+}
+
+/* Partners Section */
+.partnersSection {
+    padding: 1.5em 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 5;
+}
+
+.partnersSection .mainHeading {
+    font-size: 1.5em;
+    letter-spacing: 12px;
+    font-weight: 600;
+}
+
+.partnersSection .subHeading {
+    margin: 0;
+    color: #6d6d6c;
+    letter-spacing: 15px;
+    font-size: 1.3em;
+}
+
+.partnersSection .partnerLink .linkImg1 {
+    height: 90px;
+}
+
+.partnersSection .partnerLink .linkImg2 {
+    height: 70px;
+}
+
+.partnersSection .partnerLink .linkImg3 {
+    height: 130px;
+}
+
+.partnersSection .partnerLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.partnersSection .partnerLink {
+    display: inline-block;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+}
+
+.partnersSection .partnerLink:hover {
+    transform: scale(1.1);
+}
+
+/* Contact Section */
+.contactSection {
+    padding: 3em 0;
+    background-color: #e4d6b9;
+    scroll-margin-top: 4rem;
+}
+
+.contactSection .mainHeading {
+    color: #6d6d6c;
+    text-align: center;
+    letter-spacing: 0.5rem;
+}
+
+.contactSection .subHeading {
+    color: #b99968;
+    text-align: center;
+    letter-spacing: 17px;
+    margin-top: 0.2em;
+}
+
+.contactSection .commonInput {
+    border: none;
+    outline: none;
+    padding: 0.4em 0.9em;
+    border-radius: 0.8em;
+    width: 100%;
+    color: #b99968;
+    margin-bottom: 1em;
+}
+
+.contactSection textarea.commonInput {
+    padding: 0.5em 0.9em;
+    resize: none;
+}
+
+.contactSection .commonInput::placeholder {
+    color: #b99968;
+    letter-spacing: 2px;
+}
+
+.contactSection .formBtn {
+    background-color: #f2f2f2;
+    color: #b99968;
+    border: none;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.2);
+    border-radius: 0.4em;
+    letter-spacing: 2px;
+    padding: 0.3em 0.5em;
+    font-size: 0.9em;
+    float: right;
+    font-weight: 300;
+}
+
+.contactSection .mainText {
+    color: #b99968;
+    font-weight: 300;
+}
+
+.contactSection .smLink {
+    text-decoration: underline;
+    display: block;
+    font-size: 0.9em;
+    color: #b99968;
+    line-height: 1.2;
+}
+
+/* Info Section */
+.infoSection {
+    padding: 2.5em 0;
+    text-align: center;
+    background: linear-gradient(to left, #f2f2f2, #ffffff);
+}
+
+.infoSection .mainHeading {
+    color: #6d6d6c;
+    font-size: 2em;
+    letter-spacing: 12px;
+    font-weight: 500;
+}
+
+.infoSection .subHeading {
+    margin: 0.2em 0;
+    letter-spacing: 13px;
+    color: #b99968;
+    font-size: 1.4em;
+}
+
+.infoSection .grayInput {
+    background-color: #6d6d6c;
+    border: none;
+    border-radius: 0.7em;
+    padding: 0.3em 4.5em;
+    color: white;
+    outline: none;
+}
+
+.infoSection .grayInput::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.infoSection .mainText.link2 {
+    display: block;
+    color: #6d6d6c;
+}
+
+.infoSection .mainHeading.mainHeading2 {
+    font-size: 2.4em;
+    margin-top: 1em;
+}
+
+.infoSection .grayText {
+    color: #6d6d6c;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    line-height: 0.9;
+}
+
+.infoSection .grayLink {
+    color: #6d6d6c;
+    text-decoration: auto;
+    margin-bottom: 0.5em;
+}
+
+/* Main Footer */
+.mainFooter {
+    padding: 0.5em;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.mainFooter .copyText span {
+    color: #b99968;
+}
+
+.emailSection {
+    padding: 3em 0;
+    background-color: #e4d6b9;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    .mapSection .mainHeading,
+    .mainHeading,
+    .questionsSection .mainHeading {
+        font-size: 1.5em;
+    }
+
+    .heroSection {
+        padding: 3em 0.5em;
+        min-height: 80vh;
+    }
+
+    .socialLink[sec='.tab-general'] {
+        margin-right: 0;
+    }
+
+    .socialLink.active {
+        margin: auto;
+        display: block;
+    }
+
+    .appSection .googleLink img {
+        height: 50px;
+    }
+
+    .partnersSection .partnerLinks {
+        display: block;
+    }
+}
