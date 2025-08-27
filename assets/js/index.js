@@ -1,3 +1,7 @@
+  if (window.top !== window.self) {
+	   window.top.location.href = window.self.location.href;
+  }
+
   /* FAQ Section Accordion */ 
   var acc = document.getElementsByClassName('accordion');
   var i;
