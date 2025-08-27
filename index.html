@@ -14,7 +14,13 @@
 		<meta property="og:locale" content="en_US"/>
 		<meta property="og:type" content="article"/>
 		<meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-ancestors 'none'; ">
-        <link rel="shortcut icon" href="assets/img/icon/favicon.ico" type="image/x-icon">
+        <!-- Frame-busting JS -->
+		<script>
+		    if (window.top !== window.self) {
+		        window.top.location.href = window.self.location.href;
+		    }
+		</script>
+		<link rel="shortcut icon" href="assets/img/icon/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon" href="assets/img/icon/apple-touch-icon.png"/>
 		<link rel="apple-touch-icon" sizes="57x57" href="assets/img/icon/apple-touch-icon-57x57.png"/>
 		<link rel="apple-touch-icon" sizes="72x72" href="assets/img/icon/apple-touch-icon-72x72.png"/>
@@ -350,12 +356,6 @@
         <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
         <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/index.js"></script>
-		<!-- Frame-busting JS -->
-		<script>
-		    if (window.top !== window.self) {
-		        window.top.location.href = window.self.location.href;
-		    }
-		</script>
         <script type="application/ld+json">
             {
              "@context" : "http://schema.org",
