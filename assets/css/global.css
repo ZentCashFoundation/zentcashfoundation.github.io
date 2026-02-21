@@ -1,6 +1,9 @@
+/* Default */
+
 body {
     background: radial-gradient(ellipse at bottom, #1b2735 5%, #090a0f 95%);
 }
+
 /* Menu */
 .bg-body-tertiary {
     background: radial-gradient(ellipse at bottom, #1b2735 5%, #090a0f 95%);
@@ -12,115 +15,7 @@ body {
     }
 }
 
-.zentcash-presentation{
-        background: linear-gradient(120deg, #0B0F14 60%, #C6A75E 100%);
-        color: #FFFFFF;
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-}
-
-.zentcash-presentation-title{
-        font-family: emoji;
-        font-size: 4rem;
-        text-transform: capitalize;
-}
-
-.zentcash-presentation-description{
-        font-size: 1.3rem;
-}
-
-.zentcash-presentation-image{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        animation: infinite 7s swingBounce;
-}
-
-.zentcash-partners {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background: radial-gradient(circle at 50% 20%, rgba(198, 167, 94, 0.1), transparent 60%), #d5d5d5;
-    text-align: center;
-}
-
-.zentcash-partners-title {
-    font-family: emoji;
-    font-size: 3rem;
-    text-align: center;
-    text-transform: capitalize;
-}
-
-.zentcash-partners-description {
-    font-family: emoji;
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.zentcash-partners img {
-    max-width: 100%;
-}
-
-.zentcash-partners-view-all-buttom-container {
-    padding-top: 2rem;
-}
-
-.zentcash-partners-view-all-buttom-container:hover {
-    animation: 1s pulseZoom;
-}
-
-.zentcash-partners-view-all-buttom {
-    background: #ba9d59;
-    color: black;
-    font-family: emoji;
-    font-size: 1.2rem;
-    text-transform: capitalize;
-    font-weight: 500;
-    text-decoration: none;
-    padding: 1rem;
-    border-radius: 1rem;
-    border: 1px solid;
-}
-
-.zentcash-features {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background: radial-gradient(circle at 50% 20%, rgba(198, 167, 94, 0.1), transparent 60%), #0F172A;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.zentcash-features-title{
-    font-family: emoji;
-    font-size: 3rem;
-    text-transform: capitalize;
-}
-
-.zentcash-features-description{
-    font-size: 1.2rem;
-    line-height: 0.5;
-    text-transform: capitalize;
-}
-
-.zentcash-features img {
-    max-width: 80%;
-}
-
-.feature-title {
-    color: #c5b88f;
-    font-family: emoji;
-    font-size: 1.2rem;  
-}
-
-.feature-title::before {
-    display: block;
-    content: '';
-    background-color: #ffc107;
-    height: 3px;
-    margin-bottom: 4px;
-    margin-top: 12px;
-}
+/* Flex */
 
 .flex-justify-content {
     justify-content: center;
@@ -129,6 +24,7 @@ body {
 
 
 /* Footer */
+
 .footer{
     background: radial-gradient(ellipse at bottom, #1b2735 5%, #090a0f 95%);
     color: #FFFFFF;

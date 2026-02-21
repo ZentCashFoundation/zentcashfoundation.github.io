@@ -3,7 +3,7 @@
       const response = await fetch("https://explorer.zent.cash/api/getinfo");
       if (!response.ok) throw new Error("Error en la API");
       const data = await response.json();
-      return data; // devolvemos todo el JSON
+      return data; 
     } catch (error) {
       console.error("Error fetchApiData:", error);
       return null;

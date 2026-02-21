@@ -1,0 +1,221 @@
+/* Presentation */
+
+.zentcash-presentation{
+        background: linear-gradient(120deg, #0B0F14 60%, #C6A75E 100%);
+        color: #FFFFFF;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+}
+
+.zentcash-presentation-title{
+        font-family: emoji;
+        font-size: 4rem;
+        text-transform: capitalize;
+}
+
+.zentcash-presentation-description{
+        font-size: 1.3rem;
+}
+
+.zentcash-presentation-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: infinite 7s swingBounce;
+}
+
+
+/* Partners */
+
+.zentcash-partners {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: radial-gradient(circle at 50% 20%, rgba(198, 167, 94, 0.1), transparent 60%), #d5d5d5;
+    text-align: center;
+}
+
+.zentcash-partners-title {
+    font-family: emoji;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.zentcash-partners-description {
+    font-family: emoji;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.zentcash-partners img {
+    max-width: 100%;
+}
+
+.zentcash-partners-view-all-buttom-container {
+    padding-top: 2rem;
+}
+
+.zentcash-partners-view-all-buttom-container:hover {
+    animation: 1s pulseZoom;
+}
+
+.zentcash-partners-view-all-buttom {
+    background: #ba9d59;
+    color: black;
+    font-family: emoji;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid;
+}
+
+/*  Features */
+
+.zentcash-features {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: radial-gradient(circle at 50% 20%, rgba(198, 167, 94, 0.1), transparent 60%), #0F172A;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.feature-item {
+    padding: 1rem;
+}
+
+.zentcash-features-title{
+    font-family: emoji;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.zentcash-features-description{
+    font-size: 1.2rem;
+    line-height: 0.5;
+    text-transform: capitalize;
+}
+
+.zentcash-features img {
+    max-width: 80%;
+}
+
+.feature-title {
+    color: #c5b88f;
+    font-family: emoji;
+    font-size: 1.2rem;  
+}
+
+.feature-title::before {
+    display: block;
+    content: '';
+    background-color: #ffc107;
+    height: 3px;
+    margin-bottom: 4px;
+    margin-top: 12px;
+}
+
+
+/*  Works */
+
+.zentcash-works {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: radial-gradient(circle at 50% 20%, rgba(198, 167, 94, 0.1), transparent 60%), #f3f3f3;
+    text-align: center;
+}
+
+.zentcash-works-title {
+    font-family: emoji;
+    font-weight: 500;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #a0831d;
+}
+
+.zentcash-works-item {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+h2.zentcash-works-subtitle {
+    font-family: emoji;
+    font-weight: 100;
+    font-size: 2rem;
+    line-height: 1.7rem;
+    text-transform: uppercase;
+    color: #917719;
+}
+
+h3.zentcash-works-subtitle {
+    font-family: emoji;
+    font-weight: 100;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    text-transform: uppercase;
+    color: #917719;
+}
+
+.zentcash-works-description {
+    font-family: emoji;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+/*  Get Started */
+
+.zentcash-get-started {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: radial-gradient(circle at 50% 30%,  rgba(198, 167, 94, 0.15),  transparent 60%), linear-gradient(135deg, #0F172A, #111827);
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.zentcash-get-started-title {
+    font-family: emoji;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.zentcash-get-started-item {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.zentcash-get-started-item h5 {
+    font-family: emoji;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
+.zentcash-get-started-item p {
+    font-family: emoji;
+    font-size: 1.5rem;
+}
+
+.zentcash-get-started img {
+    max-height: 15rem;
+}
+
+.zentcash-get-started .row-reverse-flex {
+    flex-direction: row-reverse;
+} 
+
+.button-homepage-get-started{
+    background: #ba9d59;
+    color: black;
+    font-family: emoji;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid;
+}
