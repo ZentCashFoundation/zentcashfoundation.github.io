@@ -9,6 +9,13 @@ body {
     background: radial-gradient(ellipse at bottom, #1b2735 5%, #090a0f 95%);
 }
 
+.nav-item  {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+}
+
 @media (min-width: 992px) {
     .collapse.navbar-collapse{
         justify-content: flex-end;
@@ -49,6 +56,7 @@ body {
 }
 
 .footer-menu {
+    margin-left: 1rem;
     margin-bottom: 2rem;
 }
 
