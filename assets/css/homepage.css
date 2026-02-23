@@ -96,7 +96,6 @@
 
 .zentcash-features-description{
     font-size: 1.2rem;
-    line-height: 0.5;
     text-transform: capitalize;
 }
 
@@ -117,6 +116,13 @@
     height: 3px;
     margin-bottom: 4px;
     margin-top: 12px;
+}
+
+@media (max-width: 575px) {
+    .feature-item{
+        padding-right: 30%;
+        padding-left: 30%;
+    }
 }
 
 
@@ -201,6 +207,7 @@ h3.zentcash-works-subtitle {
 
 .zentcash-get-started img {
     max-height: 15rem;
+    max-width: 100%;
 }
 
 .zentcash-get-started .row-reverse-flex {

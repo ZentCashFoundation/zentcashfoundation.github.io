@@ -35,9 +35,63 @@ body {
     padding-top: 1rem;
     overflow: visible;
 }
+
+.footer-menus {
+    border-bottom: 1px solid #202b3c;
+    margin-right: -2rem;
+    margin-left: -2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .footer .container{
 	max-width: 100%;
 }
+
+.footer-menu {
+    margin-bottom: 2rem;
+}
+
+.footer-menu .footer-item {
+    color: #89adad;
+    display: table;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.footer-menu summary {
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: #89adad;
+}
+
+.donation-qr img {
+    width: 30%;
+    max-width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.donation-qr img.btc {
+    border: 5px solid #ffc400;
+}
+
+.donation-qr img.ltc {
+    border: 5px solid #999999;
+}
+
+.donation-qr img.doge {
+    border: 5px solid #fbff00;
+}
+
+.donation-qr img.ztc {
+    border: 5px solid #ffd900;
+}
+
 .footer .copyright{
     font-size: 14px;
 }
