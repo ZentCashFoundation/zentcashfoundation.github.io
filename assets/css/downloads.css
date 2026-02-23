@@ -8,6 +8,12 @@
         padding-left: 8%;
         padding-right: 8%;
 }
+
+.zentcash-downloads-subtitle{
+    font-family: emoji;
+    font-size: 2rem;
+}
+
 .zentcash-downloads-title{
         display: flex;
         justify-content: center;
@@ -51,7 +57,7 @@
 .zentcash-downloads-main-item:hover{
     display: flex;
     background: #ffd000;
-    color: #FFFFFF;
+    color: #1d1001;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1rem;
@@ -78,7 +84,52 @@
     border: 1px solid #000000;
 }
 
-#mobile-and-light-wallet{
+.zentcash-gui-wallet-title{
+    font-family: emoji;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#zentcash-gui-wallet p {
+    font-family: emoji;
+    font-size: 1.5rem;
+}
+
+.zentcash-cli-wallet-title{
+    font-family: emoji;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#zentcash-cli-wallet p {
+    font-family: emoji;
+    font-size: 1.5rem;
+}
+
+.zentcash-mobile-and-light-wallet-title{
+    font-family: emoji;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#zentcash-mobile-and-light-wallet p {
+    font-family: emoji;
+    font-size: 1.5rem;
+}
+
+.zentcash-import-blockchain-title{
+    font-family: emoji;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#zentcash-import-blockchain p {
+    font-family: emoji;
+    font-size: 1.5rem;
+}
+
+
+#zentcash-mobile-and-light-wallet{
     margin-top: 3rem;
     padding-top: 3rem;
     padding-right: 3rem;
@@ -87,7 +138,7 @@
     border: 1px solid #000000; 
 }
 
-#import-blockchain{
+#zentcash-import-blockchain{
     margin-top: 3rem;
     padding-top: 3rem;
     padding-right: 3rem;
@@ -126,9 +177,10 @@
 .zentcash-target-wallet img{
         width: 20%;
         max-width: 100%;
+        padding-bottom: 1rem;
 }
 
-.target-import-blockchain{
+.zentcash-target-import-blockchain{
     display: flex;
     justify-items: center;
     padding: 3rem;
@@ -163,8 +215,8 @@
 }
 .bottom-wallet:hover{
     display: flex;
-    background: #410256;
-    color: #FFFFFF;
+    background: #ffd257;
+    color: #1d1001;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
