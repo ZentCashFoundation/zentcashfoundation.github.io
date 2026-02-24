@@ -35,6 +35,26 @@
     
   }
 
+$(document).ready(function() {
+ 
+  $('a[href^="#"]').click(function(e) {
+    const target = $(this).attr('href');
+    const $el = $(target);
+    if ($el.length) {
+      e.preventDefault();
+
+     
+      const stickyMenuHeight = $('.navbar.sticky-top').outerHeight() || 0; 
+      const offset = stickyMenuHeight + 20; 
+
+      // Scroll animated with offset for sticky menu
+      $('html, body').animate({
+        scrollTop: $el.offset().top - offset
+      }, 1000);
+    }
+  });
+});
+
  
   (async function () {
     const apiData = await fetchApiData(); 

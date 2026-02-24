@@ -38,6 +38,7 @@
     font-size: 1.8rem;
     height: 5rem;
     align-items: center;
+    text-align: center;
 }
 
 .zentcash-downloads-main-item{
@@ -212,6 +213,8 @@
     font-weight: bold;
     border: 1px solid;
     border-radius: 5%;
+    justify-content: center;
+    margin-bottom: 1.5rem;
 }
 .bottom-wallet:hover{
     display: flex;
