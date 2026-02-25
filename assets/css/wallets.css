@@ -1,0 +1,279 @@
+.zentcash-wallets{
+        background: linear-gradient(120deg, #0B0F14 60%, #C6A75E 100%);
+        color: #FFFFFF;
+        padding-top: 4rem;
+        padding-bottom: 4rem;    
+        position: relative;
+        border: 1px solid #323232;
+        padding-left: 8%;
+        padding-right: 8%;
+}
+
+.zentcash-wallets-subtitle{
+    font-family: emoji;
+    font-size: 2rem;
+}
+
+.zentcash-wallets-title{
+        display: flex;
+        justify-content: center;
+        font-family: emoji;
+        font-size: 3rem;
+        font-weight: 500;
+}
+.zentcash-wallets-main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 1px solid #a1a1a1;
+}
+
+.zentcash-wallets-main-menu a {
+    font-family: emoji;
+    font-size: 1.8rem;
+    height: 5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.zentcash-wallets-main-item{
+    display: flex;
+    background: radial-gradient(ellipse at bottom, #1b2735 5%, #090a0f 95%);
+    color: #FFFFFF;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.zentcash-wallets-main-item:hover{
+    display: flex;
+    background: #ffd000;
+    color: #1d1001;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+}
+
+#zentcash-gui-wallet{
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, .08) 0%, rgba(255, 255, 255, .04) 100%);
+    border: 1px solid #000000;
+}
+
+#zentcash-cli-wallet{
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, .08) 0%, rgba(255, 255, 255, .04) 100%);
+    border: 1px solid #000000;
+}
+
+.zentcash-gui-wallet-title{
+    font-family: emoji;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#zentcash-gui-wallet p {
+    font-family: emoji;
+    font-size: 1.5rem;
+}
+
+.zentcash-cli-wallet-title{
+    font-family: emoji;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#zentcash-cli-wallet p {
+    font-family: emoji;
+    font-size: 1.5rem;
+}
+
+.zentcash-mobile-and-light-wallet-title{
+    font-family: emoji;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#zentcash-mobile-and-light-wallet p {
+    font-family: emoji;
+    font-size: 1.5rem;
+}
+
+.zentcash-import-blockchain-title{
+    font-family: emoji;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#zentcash-import-blockchain p {
+    font-family: emoji;
+    font-size: 1.5rem;
+}
+
+
+#zentcash-mobile-and-light-wallet{
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, .08) 0%, rgba(255, 255, 255, .04) 100%);
+    border: 1px solid #000000; 
+}
+
+#zentcash-import-blockchain{
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, .08) 0%, rgba(255, 255, 255, .04) 100%);
+    border: 1px solid #000000;
+}
+
+.zentcash-wallet-photo{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.zentcash-wallet-photo img{
+    max-width: 100%;
+}
+
+.row.wallets {
+    justify-content: center;
+}
+.zentcash-target-wallet-align{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.zentcash-target-wallet{
+    display: flex;
+    justify-items: center;
+    padding: 3rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, .08) 0%, rgba(255, 255, 255, .04) 100%);
+    border-radius: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zentcash-target-wallet img{
+        width: 20%;
+        max-width: 100%;
+        padding-bottom: 1rem;
+}
+
+.zentcash-target-import-blockchain{
+    display: flex;
+    justify-items: center;
+    padding: 3rem;
+    border-radius: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bottom-wallet-align{
+    margin-top: 1.25rem;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1.25rem;
+    color: #fffc;
+    line-height: 1.5;
+}
+.bottom-wallet{
+    display: flex;
+    color: #FFFFFF;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 5%;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+.bottom-wallet:hover{
+    display: flex;
+    background: #ffd257;
+    color: #1d1001;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+@media (max-width: 991px) {
+    .target-wallet-align{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .wallet{
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    #zentcash-gui-wallet {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    #zentcash-cli-wallet {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    #mobile-and-light-wallet {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .target-wallet-align{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .bottom-wallet-align{
+        margin-top: 1.25rem;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 1.25rem;
+        color: #fffc;
+        line-height: 1.5;
+        flex-direction: column;
+        align-items: center;
+    } 
+}

@@ -1,0 +1,72 @@
+.zentcash-social{
+    color: #FFFFFF;
+    background: radial-gradient(circle at 50% 30%,rgba(198, 167, 94, 0.18),transparent 60%), linear-gradient(135deg, #0F172A, #111827);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.zentcash-social-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.zentcash-social-subtitle{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.social{
+    padding: 1rem;
+}
+
+.card-social {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: none;
+    flex-direction: column;
+    color: #FFFFFF;
+    min-width: 100%;
+    min-height: 10rem;
+    background: #000000;
+    border-radius: 3rem;
+}
+
+.card-social svg {
+    margin-bottom: 0.8rem;
+}
+
+.card-social:hover.active {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: none;
+    flex-direction: column;
+    color: #FFFFFF;
+    min-width: 100%;
+    min-height: 10rem;
+    background: #5cee7b;
+    border-radius: 3%;
+    transform: scale(1.1);
+}
+
+.card-social:hover.in-progress {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: none;
+    flex-direction: column;
+    color: #FFFFFF;
+    min-width: 100%;
+    min-height: 10rem;
+    background: #f3dd60;
+    border-radius: 3%;
+}
