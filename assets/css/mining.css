@@ -1,0 +1,141 @@
+.mining{
+    color: #FFFFFF;
+    background: radial-gradient(circle at 50% 30%, rgba(198, 167, 94, 0.18), transparent 60%), linear-gradient(135deg, #0F172A, #111827);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.pro::before {
+    content: url(/assets/img/emojis/2714.svg);
+    width: 18px;
+    display: inline-block;
+}
+
+.cons::before {
+    content: url(/assets/img/emojis/274C.svg);
+    width: 18px;
+    display: inline-block;
+}
+
+.row.mining {
+    justify-content: center;
+}
+
+.mining h5{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.mining p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.mining-introduction {
+    text-align: center;
+}
+
+.zentcash-mining-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.zentcash-mining-subtitle{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.mining-titles {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.mining-item{
+    color: #FFFFFF;
+    background: linear-gradient(120deg, #0B0F14 60%, #C6A75E 100%);
+    border: 2px solid #323232;
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.mining-item a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.mining-item a:hover{
+    text-decoration: none;
+    color: #3511ff;
+}
+
+.mining-item a:focus {
+    text-decoration: none;
+    color: #00ce4f;
+}
+
+.more-information-pool a{
+    padding-left: 3rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.list-miners{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.list-miners a{
+    padding-left: 3rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.list-miners li{
+    list-style: none;
+}
+
+@media (max-width: 991px) {
+    .mining{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .mining-item{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .mining{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 0.8rem;
+        padding-right: 1rem;
+    }
+
+    .mining-item{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 0.8rem;
+        padding-right: 1rem;
+    }
+}

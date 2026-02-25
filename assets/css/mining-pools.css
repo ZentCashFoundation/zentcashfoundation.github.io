@@ -9,6 +9,20 @@
     padding-right: 8%;
 }
 
+.zentcash-mining-pools-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.zentcash-mining-pools-subtitle{
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 .mining-pool{
     padding: 1rem;
 }

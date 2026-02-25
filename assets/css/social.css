@@ -44,7 +44,7 @@
     margin-bottom: 0.8rem;
 }
 
-.card-social:hover.active {
+.card-social:hover {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -53,20 +53,7 @@
     color: #FFFFFF;
     min-width: 100%;
     min-height: 10rem;
-    background: #5cee7b;
-    border-radius: 3%;
-    transform: scale(1.1);
-}
-
-.card-social:hover.in-progress {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration-line: none;
-    flex-direction: column;
-    color: #FFFFFF;
-    min-width: 100%;
-    min-height: 10rem;
-    background: #f3dd60;
-    border-radius: 3%;
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgb(198 167 94 / 52%);
+    background: radial-gradient(circle at 20% 80%, rgb(255 255 255 / 35%), transparent 50%), radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.05), transparent 50%), #a8ab04de;
 }
