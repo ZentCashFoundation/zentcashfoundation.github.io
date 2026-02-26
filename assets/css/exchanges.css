@@ -1,0 +1,64 @@
+.zentcash-exchanges{
+    color: #FFFFFF;
+    background: radial-gradient(circle at 50% 30%, rgba(198, 167, 94, 0.18), transparent 60%), linear-gradient(135deg, #0F172A, #111827);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.zentcash-exchanges-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.zentcash-exchanges-subtitle{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.zentcash-card-exchange {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: none;
+    flex-direction: column;
+    color: #FFFFFF;
+    min-width: 100%;
+    min-height: 10rem;
+    background: #000000;
+    border-radius: 3%;
+}
+
+.zentcash-card-exchange:hover.active {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: none;
+    flex-direction: column;
+    color: #FFFFFF;
+    min-width: 100%;
+    min-height: 10rem;
+    background: #5cee7b;
+    border-radius: 3%;
+    transform: scale(1.04);
+}
+
+.zentcash-card-exchange:hover.in-progress {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: none;
+    flex-direction: column;
+    color: #FFFFFF;
+    min-width: 100%;
+    min-height: 10rem;
+    background: #f3dd60;
+    border-radius: 3%;
+}
