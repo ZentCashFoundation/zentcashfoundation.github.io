@@ -49,7 +49,7 @@ async function fetchNodeInfo(node) {
     }
 
     try {
-        const url = `http://${node.url}:${node.port}/info`;
+        const url = `https://${node.url}:${node.port}/info`;
         const response = await fetchWithTimeout(url, {}, 5000);
         const info = await response.json();
         console.log(response);
