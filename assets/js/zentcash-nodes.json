@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {
+      "name": "SeedPRO1",
+      "url": "185.74.222.212",
+      "port": 21698,
+      "ssl": false,
+      "cache": false
+    },
+    {
+      "name": "SeedPRO2",
+      "url": "138.124.183.11",
+      "port": 21698,
+      "ssl": false,
+      "cache": false
+    },
+    {
+      "name": "SeedPRO3",
+      "url": "185.252.215.234",
+      "port": 21698,
+      "ssl": false,
+      "cache": false
+    }
+  ]
+}
+
+
+

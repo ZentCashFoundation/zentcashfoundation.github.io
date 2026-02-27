@@ -13,7 +13,7 @@
       <meta property="og:site_name" content="Nodes | Zent Cash | Global Decentralized Payment Network For The Gaming World"/>
       <meta property="og:locale" content="en_US"/>
       <meta property="og:type" content="article"/>
-      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://explorer.zent.cash">
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' *">
       <link rel="shortcut icon" href="/assets/img/icons/favicon.ico" type="image/x-icon">
       <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png"/>
       <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-touch-icon-57x57.png"/>
@@ -88,7 +88,21 @@
         <section class="zentcash-nodes">     
             <h1 class="zentcash-nodes-title">Nodes</h1>
             <p class="zentcash-nodes-subtitle">Connect to our listed Zent Cash nodes, or deploy your own full or light node to validate transactions, maintain privacy, and strengthen network decentralization.</p>         
-        </section>
+            <div class="container table-nodes">
+              <table class="nodes-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>URL</th>
+                        <th>Port</th>
+                        <th>Height</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="node-table-body"></tbody>
+              </table>
+            </div>
+          </section>
 
         <footer class="footer">
           <div class="footer-menus">
@@ -196,6 +210,7 @@
         <script type="text/javascript" src="/assets/vendors/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script type="text/javascript" src="/assets/js/global.js"></script>
+        <script type="text/javascript" src="/assets/js/nodes.js"></script>
         <script type="text/javascript" src="/assets/js/schema-organization.js"></script>
     </body>
 </html>
