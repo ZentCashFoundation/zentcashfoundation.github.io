@@ -1,0 +1,33 @@
+.zentcash-what-is-zentcash{
+    color: #FFFFFF;
+    background: radial-gradient(circle at 50% 30%, rgba(198, 167, 94, 0.18), transparent 60%), linear-gradient(135deg, #0F172A, #111827);
+    position: relative;
+    border: 1px solid #323232;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+.zentcash-what-is-zentcash-introduction {
+    text-align: center;
+}
+
+.zentcash-what-is-zentcash-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.zentcash-what-is-zentcash-subtitle{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.row-reverse-flex {
+    flex-direction: row-reverse;
+} 

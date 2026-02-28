@@ -16,6 +16,10 @@ body {
     padding-right: 1.3rem;
 }
 
+.dropdown-item:active{
+    background: #ffc219d8;
+}
+
 @media (min-width: 992px) {
     .collapse.navbar-collapse{
         justify-content: flex-end;
